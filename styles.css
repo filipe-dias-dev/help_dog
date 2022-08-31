@@ -109,6 +109,14 @@ body {
     position: relative;
 }
 
+.footer_redes_sociais {
+    bottom: 90px;
+    display: flow-root;
+    position: relative;
+    justify-content: center;
+    
+}
+
 .footer_redes_sociais li {
     position: relative;
     display: flex;
