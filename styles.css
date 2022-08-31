@@ -57,7 +57,11 @@ body {
     display: flex;
     align-items: center;
     top: 80px;
-    
+}
+
+.texto_contato {
+    position: relative;
+    left: 40px;
 }
 
 .viralata {
