@@ -1,6 +1,6 @@
 body {
     font-family: 'Merriweather' ;
-   margin: 20px 0 0 50px; 
+    margin: 100px 0 0px 150px;
 }
 
 .logo,
@@ -29,11 +29,11 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 20px;
     text-align: start;
     flex-direction: row;
     width: 100%;
-    top: 80px;
+    top: 110px;
 }
 
 .botao {
@@ -56,7 +56,7 @@ body {
     flex-direction: row;
     display: flex;
     align-items: center;
-    top: 80px;
+    padding-top: 140px;
 }
 
 .texto_contato {
@@ -64,14 +64,14 @@ body {
     left: 40px;
 }
 
-.viralata {
+.racao {
     position: absolute;
     display: inline-block;
-    top: 500px;
+    top: 600px;
     right: 300px;
 }
 
-.viralata1 {
+.viralata {
     position: relative;
     display: inline-block;
     top: 100px;
