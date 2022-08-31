@@ -13,6 +13,8 @@ body {
 
 .logo nav a {
   text-decoration: none;
+  padding-left: 10px;
+  font-size: 20px;
 }
 
 .titulo_principal {
@@ -105,7 +107,6 @@ body {
 .icones {
     width: 60px;
     position: relative;
-    
 }
 
 .footer_redes_sociais li {
