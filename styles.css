@@ -1,90 +1,116 @@
 body {
-    font-family: 'Merriweather' ;
-    margin: 100px 0 0px 150px;
+  font-family: "Merriweather";
+  margin: 50px 0px 0px 150px;
 }
 
 .logo,
 .nav_header {
-    justify-content: flex-start;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo nav a {
+  text-decoration: none;
 }
 
 .titulo_principal {
-    position: relative;
-    display: flex;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 60px;
-    text-align: start;
-    width: 100%;
-    top: 70px;
+  position: relative;
+  display: flex;
+  font-weight: 900;
+  font-size: 74px;
+  line-height: 60px;
+  text-align: start;
+  width: 38%;
+  top: 70px;
+}
+
+.img_vector {
+  position: relative;
+  width: 20%;
+  top: 60px;
 }
 
 .textos {
-    position: relative;
-    display: flex;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: start;
-    flex-direction: row;
-    width: 100%;
-    top: 110px;
+  position: relative;
+  display: flex;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: start;
+  flex-direction: row;
+  width: 100%;
+  top: 140px;
 }
 
 .botao {
-    position: relative;
-    display: flex;
-    background: #713FFF;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px 32px;
-    gap: 10px;
-    color: white;
+  position: relative;
+  display: flex;
+  background: #713fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 32px;
+  gap: 10px;
+  color: white;
 }
 
 .contato {
-    position: relative;
-    display: inline-block;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    padding-top: 140px;
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding-top: 140px;
 }
 
 .texto_contato {
-    position: relative;
-    left: 40px;
+  position: relative;
+  left: 40px;
 }
 
 .racao {
-    position: absolute;
-    display: inline-block;
-    top: 600px;
-    right: 300px;
+  position: absolute;
+  display: inline-block;
+  top: 290px;
+  right: 270px;
 }
 
 .viralata {
-    position: relative;
-    display: inline-block;
-    top: 100px;
+  position: absolute;
+  display: inline-block;
 }
 .secao {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
 .imagens {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 90%;
+  bottom: 300px;
+  right: 100px;
+}
+
+.icones {
+    width: 60px;
+    position: relative;
+    
+}
+
+.footer_redes_sociais li {
+    position: relative;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: center;
+    height: 30px;
 }
