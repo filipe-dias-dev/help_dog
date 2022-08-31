@@ -1,0 +1,86 @@
+body {
+    font-family: 'Merriweather' ;
+   margin: 20px 0 0 50px; 
+}
+
+.logo,
+.nav_header {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo_principal {
+    position: relative;
+    display: flex;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: start;
+    width: 100%;
+    top: 70px;
+}
+
+.textos {
+    position: relative;
+    display: flex;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: start;
+    flex-direction: row;
+    width: 100%;
+    top: 80px;
+}
+
+.botao {
+    position: relative;
+    display: flex;
+    background: #713FFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    gap: 10px;
+    color: white;
+}
+
+.contato {
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    top: 80px;
+    
+}
+
+.viralata {
+    position: absolute;
+    display: inline-block;
+    top: 500px;
+    right: 300px;
+}
+
+.viralata1 {
+    position: relative;
+    display: inline-block;
+    top: 100px;
+}
+.secao {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
