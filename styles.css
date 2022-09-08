@@ -104,16 +104,17 @@ body {
 }
 
 .icones {
-    width: 60px;
+    width: 70px;
     position: relative;
     display: flex;
 }
 
 .footer_redes_sociais {
-    bottom: 90px;
     display: flow-root;
     position: relative;
     justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .footer_redes_sociais li {
@@ -121,5 +122,5 @@ body {
     display: flex;
     justify-content: center;
     height: 30px;
-    padding-right: 200px;
+    margin: 30px;
 }
