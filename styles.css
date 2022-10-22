@@ -18,7 +18,7 @@ body {
 .titulo_principal {
   position: relative;
   display: flex;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 74px;
   line-height: 60px;
   padding-top: 20px;
@@ -34,10 +34,13 @@ body {
 .textos {
   position: relative;
   display: flex;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   width: 100%;
+}
+
+.botao:hover {
+  background-color: rgb(29, 29, 29)
 }
 
 .botao {
@@ -49,14 +52,12 @@ body {
   flex-direction: row;
   align-items: flex-start;
   padding: 12px 32px;
-  gap: 10px;
   color: white;
 }
 
 .contato {
   position: relative;
   display: inline-block;
-  flex-direction: row;
   display: flex;
   align-items: center;
   padding-top: 40px;
@@ -112,7 +113,6 @@ body {
 .footer_redes_sociais {
     display: flow-root;
     position: relative;
-    justify-content: center;
     font-size: 30px;
     font-weight: 500;
 }
